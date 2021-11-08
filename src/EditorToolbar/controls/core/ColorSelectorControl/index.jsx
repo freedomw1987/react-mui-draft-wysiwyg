@@ -7,7 +7,7 @@ import FormatColorResetIcon from '@material-ui/icons/FormatColorReset';
 import CheckIcon from '@material-ui/icons/Check';
 import { isLightOrDark } from '../../../../utils/colorUtils';
 import Button from '@material-ui/core/Button';
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/styles';
 
 const useStyles = makeStyles({
     colorRow: {
@@ -106,7 +106,7 @@ function ColorSelectorControl({
                                             backgroundColor: colorData.color,
                                         }}>
                                         {selectedColor &&
-                                        colorData.value === selectedColor.value ? (
+                                            colorData.value === selectedColor.value ? (
                                             <CheckIcon
                                                 style={{
                                                     color:

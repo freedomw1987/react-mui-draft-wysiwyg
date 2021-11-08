@@ -6,7 +6,7 @@ import EditorToolbar from './EditorToolbar';
 import Paper from '@material-ui/core/Paper';
 import { defaultConfig } from './types/config';
 import Translator from './lang/Translator';
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/styles';
 import toHTML from './conversion/toHTML';
 import useEditor from './hooks/useEditor';
 import useEditorFocus from './hooks/useEditorFocus';
@@ -79,7 +79,7 @@ function MUIEditor({
 }) {
     const editorFactories = new EditorFactories(config);
     const editorRef = React.useRef(null);
-    const translateRef = React.useRef(function () {});
+    const translateRef = React.useRef(function () { });
     const translationsRef = React.useRef(null);
     const toolbarVisibleConfig = editorFactories.getConfigItem('toolbar', 'visible');
     const [isToolbarVisible, setIsToolbarVisible] = React.useState(toolbarVisibleConfig);
