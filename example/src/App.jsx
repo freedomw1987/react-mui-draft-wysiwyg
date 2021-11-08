@@ -12,8 +12,8 @@ import Switch from '@material-ui/core/Switch';
 
 const useStyles = makeStyles((theme) => ({
     optionsWrapper: {
-        paddingTop: theme.spacing(5),
-        paddingBottom: theme.spacing(3),
+        paddingTop: 5, //theme.spacing(5),
+        paddingBottom: 3 //theme.spacing(3),
     },
 }));
 

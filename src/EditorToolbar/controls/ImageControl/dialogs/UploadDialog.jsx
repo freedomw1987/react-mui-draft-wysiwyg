@@ -19,17 +19,21 @@ const useStyles = makeStyles((theme) => ({
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        padding: theme.spacing(2),
-        marginTop: theme.spacing(1),
-        marginBottom: theme.spacing(2),
-        borderRadius: theme.shape.borderRadius || 4,
+        padding: 2,//theme.spacing(2),
+        marginTop: 1,//theme.spacing(1),
+        marginBottom: 2,//theme.spacing(2),
+        borderRadius: 4,//theme.shape.borderRadius || 4,
         backgroundColor: highlightDropArea
-            ? theme.palette.grey[400] || '#bdbdbd'
-            : theme.palette.grey[200] || '#eeeeee',
+            ? '#bdbdbd'
+            : '#eeeeee',
+        // ? theme.palette.grey[400] || '#bdbdbd'
+        // : theme.palette.grey[200] || '#eeeeee',
         border: highlightDropArea
-            ? `solid 3px ${theme.palette.grey[600] || '#757575'}`
-            : `dashed 3px ${theme.palette.grey[400] || '#bdbdbd'}`,
-        color: theme.palette.text.hint || 'rgba(0, 0, 0, 0.38)',
+            ? 'solid 3px #757575'
+            : 'dashed 3px #bdbdbd',
+        // ? `solid 3px ${theme.palette.grey[600] || '#757575'}`
+        // : `dashed 3px ${theme.palette.grey[400] || '#bdbdbd'}`,
+        color: 'rgba(0, 0, 0, 0.38)',//theme.palette.text.hint || 'rgba(0, 0, 0, 0.38)',
         cursor: 'pointer',
     }),
 }));

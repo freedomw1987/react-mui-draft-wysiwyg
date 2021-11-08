@@ -58,9 +58,9 @@ const useStyles = makeStyles((theme) => ({
         },
     },
     editorWrapper: {
-        marginTop: theme.spacing(2),
-        marginBottom: theme.spacing(2),
-        padding: theme.spacing(5),
+        marginTop: 2, //theme.spacing(2),
+        marginBottom: 2,//theme.spacing(2),
+        padding: 5, //theme.spacing(5),
     },
 }));
 

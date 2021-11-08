@@ -8,7 +8,7 @@ import { translateLiteralWithPrefix } from '../../../utils/translateUtils';
 
 const useStyles = makeStyles((theme) => ({
     selectControl: {
-        margin: theme.spacing(1),
+        margin: 1//theme.spacing(1),
     },
 }));
 
