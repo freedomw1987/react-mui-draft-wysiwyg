@@ -7,8 +7,8 @@ const useStyles = makeStyles((theme) => ({
         maxWidth: '100%',
         maxHeight: 300,
         overflow: 'auto',
-        marginTop: theme.spacing(2),
-        marginBottom: theme.spacing(2),
+        marginTop: 2,//theme.spacing(2),
+        marginBottom: 2//theme.spacing(2),
     },
 }));
 
