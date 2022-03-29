@@ -1,9 +1,9 @@
 {
-  "homepage": "https://kelsier90.github.io/react-mui-draft-wysiwyg/",
+  "homepage": "https://github.com/freedomw1987/react-mui-draft-wysiwyg/",
   "name": "react-mui-draft-wysiwyg",
   "version": "1.0.3",
   "description": "React component that allows to use a rich editor based on Material UI and Draft-js",
-  "author": "Kelsier90",
+  "author": "freedomw1987",
   "keywords": [
     "react",
     "reactjs",
@@ -17,7 +17,7 @@
     "html"
   ],
   "license": "MIT",
-  "repository": "Kelsier90/react-mui-draft-wysiwyg",
+  "repository": "freedomw1987/react-mui-draft-wysiwyg",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.jsx",
