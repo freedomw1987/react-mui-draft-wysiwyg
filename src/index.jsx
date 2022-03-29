@@ -6,7 +6,7 @@ import EditorToolbar from './EditorToolbar';
 import Paper from '@mui/material/Paper';
 import { defaultConfig } from './types/config';
 import Translator from './lang/Translator';
-import { makeStyles } from '@mui/material/styles';
+import { makeStyles } from '@mui/styles';
 import toHTML from './conversion/toHTML';
 import useEditor from './hooks/useEditor';
 import useEditorFocus from './hooks/useEditorFocus';

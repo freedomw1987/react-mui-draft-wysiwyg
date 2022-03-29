@@ -7,7 +7,7 @@ import FormatColorResetIcon from '@mui/icons-material/FormatColorReset';
 import CheckIcon from '@mui/icons-material/Check';
 import { isLightOrDark } from '../../../../utils/colorUtils';
 import Button from '@mui/material/Button';
-import { makeStyles } from '@mui/material/styles';
+import { makeStyles } from '@mui/styles';
 
 const useStyles = makeStyles({
     colorRow: {
