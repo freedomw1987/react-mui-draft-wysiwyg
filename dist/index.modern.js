@@ -50,7 +50,6 @@ import ArrowLeftIcon from '@mui/icons-material/ArrowLeft';
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 import PhotoSizeSelectLargeIcon from '@mui/icons-material/PhotoSizeSelectLarge';
 import DeleteIcon from '@mui/icons-material/Delete';
-import { makeStyles as makeStyles$1 } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
 import 'draft-js/dist/Draft.css';
 
@@ -1952,7 +1951,7 @@ EditorMedia.propTypes = {
   contentState: PropTypes.object.isRequired,
   block: PropTypes.object.isRequired
 };
-var useStyles$5 = makeStyles$1(function (theme) {
+var useStyles$5 = makeStyles(function (theme) {
   return {
     imgInfo: {
       padding: 0.6

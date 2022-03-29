@@ -52,7 +52,6 @@ var ArrowLeftIcon = _interopDefault(require('@mui/icons-material/ArrowLeft'));
 var ArrowRightIcon = _interopDefault(require('@mui/icons-material/ArrowRight'));
 var PhotoSizeSelectLargeIcon = _interopDefault(require('@mui/icons-material/PhotoSizeSelectLarge'));
 var DeleteIcon = _interopDefault(require('@mui/icons-material/Delete'));
-var styles$1 = require('@mui/material/styles');
 var Paper = _interopDefault(require('@mui/material/Paper'));
 require('draft-js/dist/Draft.css');
 
@@ -1954,7 +1953,7 @@ EditorMedia.propTypes = {
   contentState: PropTypes.object.isRequired,
   block: PropTypes.object.isRequired
 };
-var useStyles$5 = styles$1.makeStyles(function (theme) {
+var useStyles$5 = styles.makeStyles(function (theme) {
   return {
     imgInfo: {
       padding: 0.6
